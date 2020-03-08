@@ -2,17 +2,19 @@
   color: #97c93e !important;
 }
 
-.btn-platzi {
-  background-color: #97c93e;
+.btn-ticket {
+  background-color: #6AD65B;
   color: white;
 }
-
+.btn-ticket:hover {
+  background-color: #43A835;
+}
 .btn-platzi:hover {
   background-color: #82ad36;
 }
 
 #header img {
-  width: 80px;
+  width: 125px;
 }
 
 #main .carousel-inner img {
@@ -49,7 +51,8 @@
   max-width: 100%;
 }
 
-#footer {
+
+#footer, #header {
   background: linear-gradient(90deg,#1C1640 ,rgb(56, 43, 141) 25%,#6F59FF);
 }
 
