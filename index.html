@@ -36,7 +36,7 @@
               <a class="nav-link" href="#conviertete-en-orador">Conviértete en orador</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-platzi" href="#" data-toggle="modal" data-target="#modalCompra">Comprar tickets</a>
+              <a class="nav-link text-pro-dev" href="#" data-toggle="modal" data-target="#modalCompra">Comprar tickets</a>
             </li>
           </ul>
         </div>
@@ -196,7 +196,7 @@
     <!-- Lugar y fecha  -->
 
     <!-- conviertete en orador -->
-    <section id="conviertete-en-orador" class="py-3">
+    <section id="conviertete-en-orador" class="py-4">
       <div class="container">
           <div class="row">
             <div class="col text-uppercase text-center">
@@ -206,33 +206,36 @@
           </div>
           <div class="row">
             <div class="col text-center">
-              Anótate como orador para dar una charla ignite.
+              Anótate como orador para dar una charla <abbr id="tooltip" data-toggle="tooltip" data-placement="bottom" title="Charlas de 30 minutos 💪">ignite</abbr>.
               cuentanos de que quieres hablar
             </div>
           </div>  
           <div class="row">
-            <div class="col col-md-10 offset-md-1 coll-lg-8 offset-lg-2 pt-2">
+            <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 py-2">
               <form>
-                <div class="row">
+                <div class="form-row">
                   <div class="form-group col-12 col-md-6">
                     <input type="text" class="form-control" placeholder="Nombre">
                   </div>
                   <div class="form-group col-12 col-md-6">
                     <input type="text" class="form-control" placeholder="Apellido">
                   </div>
-                  <div class="form-row">
-                    <div class="form-group col">
-                      <textarea name="text" class="form-control form-control-lg" placeholder="sobre que quieres hablar"></textarea>
-                        <small class="form-text text-muted">
-                          Recuerda incluir  un titulo para tu charla
-                        </small>
-                    </div>
+                </div>  
+                <div class="form-row">
+                  <div class="form-group col">
+                    <textarea name="text" class="form-control form-control-lg" placeholder="Sobre qué quieres hablar?"></textarea>
+                    <small class="form-text text-muted">
+                      Recuerda incluir un título para tu charla
+                    </small>
                   </div>
-                  <div class="row">
-                    <div class="col">
-                      <button type="button" class="btn btn-outline-light btn-block"></button>
-                    </div>
+                </div>
+                <div class="form-row">
+                  <div class="col">
+                    <abbr id="tooltip" data-toggle="tooltip" data-placement="top" title="enviar formulario ✉️">
+                      <button type="button" class="btn btn-enviar btn-block">Enviar</button>
+                    </abbr>
                   </div>
+                </div>
                 </div>
               </form>
             </div>

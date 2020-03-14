@@ -1,4 +1,4 @@
-.text-platzi {
+.text-pro-dev {
   color: #97c93e !important;
 }
 
@@ -9,8 +9,12 @@
 .btn-ticket:hover {
   background-color: #43A835;
 }
-.btn-platzi:hover {
-  background-color: #82ad36;
+.btn-enviar {
+  background-color: #97c93e;
+  color: white;
+}
+.btn-enviar:hover {
+  background-color: #43A835;
 }
 
 #header img {
@@ -49,6 +53,11 @@
 
 #place-time img {
   max-width: 100%;
+}
+
+abbr#tooltip {
+  color: #82ad36;
+  text-decoration: none!important;
 }
 
 
