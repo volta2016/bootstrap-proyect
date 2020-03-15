@@ -1,0 +1,95 @@
+
+ .text-pro-dev {
+    color: #97c93e !important;
+  }
+  
+  .btn-ticket {
+    background-color:$tikect-base;
+    color: white;
+    &:hover {
+        background-color: $tikect-base;
+    }
+  }
+  
+  .btn-enviar {
+    background-color: $enviar-base;
+    color: white;
+    &:hover {
+        background-color: $enviar-hover;
+    }
+  }
+  
+  .btn-speakers {
+    background-color: $btn-speakers;
+    transition: 0.3s;
+    color: white;
+    &:hover {
+        background-color: $btn-hover;
+        color: white;
+      }
+  }
+  
+  
+  
+  #header img {
+    width: 125px;
+  }
+  
+  #main .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+  }
+  
+  #carousel {
+    position: relative;
+  }
+  
+  #carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  
+  #carousel .overlay .container,
+  #carousel .overlay .row {
+    height: 100%;
+  }
+  
+  #place-time {
+    background-color: #5947CC;
+    color: white;
+  }
+  .card-body {
+    height: 254px;
+  }
+  #place-time img {
+    max-width: 100%;
+  }
+  
+  abbr#tooltip {
+    color: #82ad36;
+    text-decoration: none!important;
+  }
+  
+  
+  #footer, #header {
+    background: linear-gradient(90deg,#1C1640 ,rgb(56, 43, 141) 25%,#6F59FF);
+  }
+  
+  #footer a {
+    color: white;
+  }
+  
+  @media (max-width: 374px) { 
+     h1.mobile-title {
+        font-size: 1.5rem;
+     }
+     .m-mobile {
+      margin-bottom: 1rem;
+     }
+   }
